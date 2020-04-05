@@ -211,11 +211,20 @@ If you wish to build documentation locally on your machine, make sure to install
 On Fedora 24 or later use: ::
 
   sudo dnf install python2-sphinx python2-sphinx-bootstrap-theme
+  
+  
+On Ubuntu use: ::
+
+  sudo apt install python3-sphinx
+  
 
 Then, install all required modules: ::
 
   sudo pip install -r ./administrator-manual/en/nsent/requirements.txt
+  
+Then, install all required modules(mine version): ::
 
+  sudo pip3 install -r ./administrator-manual/en/nsent/requirements.txt
 
 First clone the repository, enter language directory and type ::
 
