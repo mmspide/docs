@@ -1,1 +1,2 @@
-sphinx_bootstrap_theme===0.4.13
+sphinx-bootstrap-theme==0.4.13
+sphinx-rtd-theme==0.4.3
